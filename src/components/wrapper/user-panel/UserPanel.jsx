@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import style from './UserPanel.module.scss'
 import Sidebar from './sidebar/Sidebar'
 import Chat from "./chat/Chat";
+import RightBar from "./right-bar/RightBar";
 
 class UserPanel extends Component {
     render(){
@@ -9,6 +10,7 @@ class UserPanel extends Component {
             <div className={style.container}>
                 <Sidebar />
                 <Chat />
+                <RightBar/>
             </div>
         )
     }
