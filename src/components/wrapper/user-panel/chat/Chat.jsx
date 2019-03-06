@@ -30,7 +30,79 @@ class Chat extends Component {
                         <div className={style.content}>
                             <div className={style.message}>
                                 <span/>
+                                <div><p> :) How are you?</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.friendmessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
                                 <div><p>Hi :) How are you?</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.mymessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>I am doing well and you :D? </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.friendmessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>Everything seems to be ok :P What are you doing tomorrow?</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.mymessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>kirawdasd  maybe the lolll :D? </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.mymessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>sadasd ... hmm nothing special, we dasdasdcan go somewhere ... maybe the lolll :D? </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.mymessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>I am doing well and you :D? </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.friendmessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>Everything seems to be ok :P What are you doing tomorrow?</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.mymessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>I am doing well and you :D? </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.friendmessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>Everything seems to be ok :P What are you doing tomorrow?</p></div>
                             </div>
                         </div>
                     </div>
@@ -62,7 +134,15 @@ class Chat extends Component {
                         <div className={style.content}>
                             <div className={style.message}>
                                 <span/>
-                                <div><p>Great idea! I am available at 6 pm :> </p></div>
+                                <div><p>No I am not  idea! I am available at 6 pm :C </p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={style.friendmessage}>
+                        <div className={style.content}>
+                            <div className={style.message}>
+                                <span/>
+                                <div><p>No I am not  asdasd! I am dasd at 6 pm :) </p></div>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@
   background: #F7F7F7;
   .topbar {
     width: 100%;
-    height: 73px;
+    height: 90px;
     display: flex;
     padding: 20px;
     flex-direction: row;
@@ -57,28 +57,36 @@
       width: 78%;
       align-items: center;
       justify-content: flex-end;
-    }
-    ul li {
-      font-size: 28px;
-      color: $grey;
-      border-left: $darkUnderline;
-      padding: 0 20px;
+      li {
+        font-size: 1.8rem;
+        color: $grey;
+        border-left: $darkUnderline;
+        padding: 0 20px;
+      }
     }
   }
  .messages {
+   position: absolute;
+   top: 100px;
+   left: 0;
+   max-height: 80%;
+   width: 100%;
    display: flex;
    flex-direction: column;
+   overflow-y: scroll;
+   overflow-x: hidden;
    .friendmessage {
      display: flex;
      flex-direction: column;
      width: 100%;
+     margin: 60px 0;
    }
 
    .mymessage {
      display: flex;
-     flex: 1 0;
      flex-direction: row;
      width: 100%;
+     margin: 60px 0;
      .content {
        .message {
          justify-content: flex-end;
@@ -103,7 +111,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: auto;
   padding: 20px;
   .message {
     display: flex;
@@ -129,4 +136,24 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .chat {
+    flex: 0 0 350px;
+    .topbar {
+      .friendwrap {
+        flex-basis: 320px;
+      }
+      ul {
+        li {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
 }

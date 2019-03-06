@@ -4,13 +4,11 @@
   width: 350px;
   display: flex;
   background: #323841;
-  border-radius: 6px 0 0 6px;
   flex-direction: row;
   .sidenav {
     flex: 1 0 80px;
     flex-direction: column;
     background: $dark;
-    border-radius: 6px 0 0 6px;
     justify-content: center;
     position: relative;
     .profile {
@@ -170,10 +168,13 @@
   }
 }
 
-.effect-21 {
-  width: 100%;
-  font: 15px/24px;
-  color: #333;
-  letter-spacing: 1px;
-  border: 1px solid #4caf50;
+
+@media only screen and (max-width: 720px) {
+  .sidebar {
+    width: 100px;
+    .users {
+      display: none;
+    }
+  }
 }
+

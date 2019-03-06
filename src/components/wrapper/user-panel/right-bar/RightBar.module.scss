@@ -8,7 +8,6 @@
   flex-direction: column;
   background: #f6fbfc;
   width: 300px;
-  border-radius: 0 6px 6px 0;
   color: $grey;
   span {
     margin: 35px 0;
@@ -48,3 +47,10 @@
     }
   }
 }
+
+@media only screen and (max-width: 983px) {
+  .rightbar {
+    display: none;
+  }
+}
+
